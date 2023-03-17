@@ -121,7 +121,7 @@ export const Homepage = () => {
 
   return (
     <>
-    <div style={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
+    <div style={{display:'flex',justifyContent:'center',marginTop:'20px',flexWrap:'wrap'}}>
       {entertainment?.map((item) => (
         <div key={item.name} style={{ margin: "20px" }}>
           <a

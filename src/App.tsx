@@ -1,8 +1,8 @@
 import React from 'react';
-import AddOns from './AddOns/AddOns';
+// import AddOns from './AddOns/AddOns';
 import './App.css';
 import { Homepage } from './Homepage/Homepage';
-import ImageViewer from './ImageView/ImageViewer';
+// import ImageViewer from './ImageView/ImageViewer';
 
 function App() {
   return (

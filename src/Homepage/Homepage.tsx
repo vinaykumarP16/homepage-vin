@@ -14,6 +14,8 @@ import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import { Button, IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 import GroupsIcon from '@mui/icons-material/Groups';
+import ShowChartIcon from '@mui/icons-material/ShowChart';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export const Homepage = () => {
   const entertainment = [
@@ -58,6 +60,18 @@ export const Homepage = () => {
       link: "https://www.facebook.com/pvinay.kumar.16",
       color: "blue",
       iconKey: <FacebookIcon />,
+    },
+    {
+      name: "Groww",
+      link: "https://groww.in/stocks/user/explore",
+      color: "#00d09c",
+      iconKey: <ShowChartIcon/>,
+    },
+    {
+      name: "Instagram",
+      link: "https://www.instagram.com/im_vkumar16/?next=%2Fim_vkumar16%2F",
+      color: "#F35369",
+      iconKey: <InstagramIcon/>,
     },
   ];
 
@@ -108,6 +122,52 @@ export const Homepage = () => {
       link: "https://stackoverflow.com/",
       color: "blue",
     },
+    {
+      name: "jenkins",
+      link: "https://jenkins.assuredev.in/job/Task%20Management/",
+      color: "black",
+    },
+    {
+      name: "jenkins",
+      link: "https://jenkins.assuredev.in/job/Task%20Management/",
+      color: "black",
+    },
+    {
+      name:'server-1',
+      link:'http://localhost:3000/',
+      color:'Blue'
+    },
+    {
+      name:'server-2',
+      link:'http://localhost:3000/',
+      color:'Blue'
+    },
+    {
+      name:"Gmail",
+      link:'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox',
+      color:'red',
+    },
+    {
+      name:"Text-compare",
+      link:'https://text-compare.com/',
+      color:'light-green',
+    },
+    {
+      name:"Json compare",
+      link:'https://jsondiff.com/',
+      color:'white',
+    },
+    {
+      name:"jarvis",
+      link:'https://github.com/Transform-Automations/jarvis-ui',
+      color:'blue',
+    },
+    {
+      name:"assureweb",
+      link:'https://github.com/Transform-Automations/assure-web',
+      color:'blue',
+    }
+
   ];
 
   const myCourses = [
@@ -132,7 +192,7 @@ export const Homepage = () => {
           >
             <Tooltip title={item.name} TransitionComponent={Zoom} placement="top" >
             {item.iconKey ? (
-              <IconButton style={{ color: item.color }}>
+              <IconButton style={{ color: item.color }} size="medium">
                 {item.iconKey}
               </IconButton>
             ) : (
@@ -153,7 +213,7 @@ export const Homepage = () => {
           >
             <Tooltip title={item.name} TransitionComponent={Zoom} placement="top">
             {item.iconKey ? (
-              <IconButton style={{ color: item.color }}>
+              <IconButton style={{ color: item.color }} size="medium">
                 {item.iconKey}
               </IconButton>
             ) : (
@@ -173,7 +233,7 @@ export const Homepage = () => {
           >
             <Tooltip title={item.name} TransitionComponent={Zoom} placement="top">
             {item.iconKey ? (
-              <IconButton style={{ color: item.color }}>
+              <IconButton style={{ color: item.color }} size="large">
                 {item.iconKey}
               </IconButton>
             ) : (

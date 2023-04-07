@@ -1,21 +1,24 @@
-import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import PianoIcon from "@mui/icons-material/Piano";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import GoogleIcon from "@mui/icons-material/Google";
-import BorderAllIcon from "@mui/icons-material/BorderAll";
 import LanguageIcon from "@mui/icons-material/Language";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import { Button, IconButton, Tooltip } from "@mui/material";
-import Zoom from '@mui/material/Zoom';
-import GroupsIcon from '@mui/icons-material/Groups';
-import ShowChartIcon from '@mui/icons-material/ShowChart';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import Zoom from "@mui/material/Zoom";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import { BsFiletypeSql,BsGraphUpArrow,BsStackOverflow,BsFileEarmarkSpreadsheetFill } from 'react-icons/bs';
+import { FaJenkins,FaJava } from 'react-icons/fa';
+import { MdOutlineDataArray } from 'react-icons/md';
+import { BiNotepad } from 'react-icons/bi';
+import { ImSpotify } from 'react-icons/im';
+import {SiGooglemeet,SiGmail,SiLeetcode,SiTypescript,SiPython,SiOpenai} from 'react-icons/si';
+
+
 
 export const Homepage = () => {
   const entertainment = [
@@ -41,7 +44,7 @@ export const Homepage = () => {
       name: "spotify",
       link: "https://open.spotify.com/?",
       color: "green",
-      iconKey: <PianoIcon />,
+      iconKey: <ImSpotify />,
     },
     {
       name: "prime music",
@@ -65,13 +68,13 @@ export const Homepage = () => {
       name: "Groww",
       link: "https://groww.in/stocks/user/explore",
       color: "#00d09c",
-      iconKey: <ShowChartIcon/>,
+      iconKey: <BsGraphUpArrow />,
     },
     {
       name: "Instagram",
       link: "https://www.instagram.com/im_vkumar16/?next=%2Fim_vkumar16%2F",
       color: "#F35369",
-      iconKey: <InstagramIcon/>,
+      iconKey: <InstagramIcon />,
     },
   ];
 
@@ -79,13 +82,14 @@ export const Homepage = () => {
     {
       name: "chat-Gpt",
       link: "https://chat.openai.com/chat",
-      color: "light-green",
+      color: "dark-green",
+      iconKey: <SiOpenai />,
     },
     {
       name: "gmeet",
       link: "https://meet.google.com/?hs=197&pli=1&authuser=0",
       color: "green",
-      iconKey: <GroupsIcon />,
+      iconKey: <SiGooglemeet />,
     },
     {
       name: "Google",
@@ -97,7 +101,19 @@ export const Homepage = () => {
       name: "spreadsheet",
       link: "https://docs.google.com/spreadsheets/u/0/",
       color: "green",
-      iconKey: <BorderAllIcon />,
+      iconKey: <BsFileEarmarkSpreadsheetFill />,
+    },
+    {
+      name: "Gmail",
+      link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
+      color: "red",
+      iconKey: <SiGmail />,
+    },
+    {
+      name: "leetcode",
+      link: "https://leetcode.com/study-plan/leetcode-75/?progress=x42r8uo5",
+      color: "black",
+      iconKey: <SiLeetcode />,
     },
     {
       name: "youtube",
@@ -121,53 +137,51 @@ export const Homepage = () => {
       name: "StackOverflow",
       link: "https://stackoverflow.com/",
       color: "blue",
+      iconKey:<BsStackOverflow/>,
     },
     {
       name: "jenkins",
       link: "https://jenkins.assuredev.in/job/Task%20Management/",
       color: "black",
+      iconKey:<FaJenkins/>,
+    },
+    
+    {
+      name: "Scratch-pad",
+      link: "data:text/html,<html contenteditable>",
+      color: "blue",
+      iconKey:<BiNotepad/>,
     },
     {
-      name: "jenkins",
-      link: "https://jenkins.assuredev.in/job/Task%20Management/",
-      color: "black",
+      name: "jarvis server",
+      link: "http://localhost:3000/app",
+      color: "Blue",
     },
     {
-      name:'server-1',
-      link:'http://localhost:3000/',
-      color:'Blue'
+      name: "assureweb-server",
+      link: "http://localhost:3000/",
+      color: "Blue",
     },
     {
-      name:'server-2',
-      link:'http://localhost:3000/',
-      color:'Blue'
+      name: "Text-compare",
+      link: "https://text-compare.com/",
+      color: "light-green",
     },
     {
-      name:"Gmail",
-      link:'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox',
-      color:'red',
+      name: "Json compare",
+      link: "https://jsondiff.com/",
+      color: "white",
     },
     {
-      name:"Text-compare",
-      link:'https://text-compare.com/',
-      color:'light-green',
+      name: "jarvis",
+      link: "https://github.com/Transform-Automations/jarvis-ui",
+      color: "blue",
     },
     {
-      name:"Json compare",
-      link:'https://jsondiff.com/',
-      color:'white',
+      name: "assureweb",
+      link: "https://github.com/Transform-Automations/assure-web",
+      color: "blue",
     },
-    {
-      name:"jarvis",
-      link:'https://github.com/Transform-Automations/jarvis-ui',
-      color:'blue',
-    },
-    {
-      name:"assureweb",
-      link:'https://github.com/Transform-Automations/assure-web',
-      color:'blue',
-    }
-
   ];
 
   const myCourses = [
@@ -177,72 +191,124 @@ export const Homepage = () => {
       color: "blue",
       iconKey: <AccountTreeIcon />,
     },
+    {
+      name: "SQL course",
+      link: "https://learnsql.com/course/sql-queries/multiple-tables/referencing-columns/join-where",
+      color: "blue",
+      iconKey: <BsFiletypeSql />,
+    },
+    {
+      name: "DSA course",
+      link: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+      color: "blue",
+      iconKey: <MdOutlineDataArray />,
+    },
+    {
+      name: "Typescript",
+      link: "https://scrimba.com/learn/typescript/type-assignment-and-type-inference-cbKnaDCE",
+      color: "blue",
+      iconKey: <SiTypescript />,
+    },
+    {
+      name: "Python",
+      link: "https://scrimba.com/learn/python/course-introduction-c9Bv3wc8",
+      color: "blue",
+      iconKey: <SiPython />,
+    },
+    {
+      name: "Java",
+      link: "https://www.codecademy.com/courses/learn-java/lessons/hello-world-java",
+      color: "blue",
+      iconKey: <FaJava />,
+    },
+
   ];
 
   return (
     <>
-    <div style={{display:'flex',justifyContent:'center',marginTop:'20px',flexWrap:'wrap'}}>
-      {entertainment?.map((item) => (
-        <div key={item.name} style={{ margin: "20px" }}>
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <Tooltip title={item.name} TransitionComponent={Zoom} placement="top" >
-            {item.iconKey ? (
-              <IconButton style={{ color: item.color }} size="medium">
-                {item.iconKey}
-              </IconButton>
-            ) : (
-              <Button> {item.name}</Button>
-            )}
-            </Tooltip>
-          </a>
-        </div>
-      ))}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "20px",
+          flexWrap: "wrap",
+        }}
+      >
+        {entertainment?.map((item) => (
+          <div key={item.name} style={{ margin: "20px" }}>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <Tooltip
+                title={item.name}
+                TransitionComponent={Zoom}
+                placement="top"
+              >
+                {item.iconKey ? (
+                  <IconButton style={{ color: item.color }} size="medium">
+                    {item.iconKey}
+                  </IconButton>
+                ) : (
+                  <Button> {item.name}</Button>
+                )}
+              </Tooltip>
+            </a>
+          </div>
+        ))}
 
-      {dailyEssentials?.map((item) => (
-        <div key={item.name} style={{ margin: "20px" }}>
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <Tooltip title={item.name} TransitionComponent={Zoom} placement="top">
-            {item.iconKey ? (
-              <IconButton style={{ color: item.color }} size="medium">
-                {item.iconKey}
-              </IconButton>
-            ) : (
-              <Button> {item.name}</Button>
-            )}
-            </Tooltip>
-          </a>
-        </div>
-      ))}
-      {myCourses?.map((item) => (
-        <div key={item.name} style={{ margin: "20px" }}>
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <Tooltip title={item.name} TransitionComponent={Zoom} placement="top">
-            {item.iconKey ? (
-              <IconButton style={{ color: item.color }} size="large">
-                {item.iconKey}
-              </IconButton>
-            ) : (
-              <Button> {item.name}</Button>
-            )}
-            </Tooltip>
-          </a>
-        </div>
-      ))}
-      </div></>
+        
+        {myCourses?.map((item) => (
+          <div key={item.name} style={{ margin: "20px" }}>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <Tooltip
+                title={item.name}
+                TransitionComponent={Zoom}
+                placement="top"
+              >
+                {item.iconKey ? (
+                  <IconButton style={{ color: item.color }} size="large">
+                    {item.iconKey}
+                  </IconButton>
+                ) : (
+                  <Button> {item.name}</Button>
+                )}
+              </Tooltip>
+            </a>
+          </div>
+        ))}
+        {dailyEssentials?.map((item) => (
+          <div key={item.name} style={{ margin: "20px" }}>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <Tooltip
+                title={item.name}
+                TransitionComponent={Zoom}
+                placement="top"
+              >
+                {item.iconKey ? (
+                  <IconButton style={{ color: item.color }} size="medium">
+                    {item.iconKey}
+                  </IconButton>
+                ) : (
+                  <Button> {item.name}</Button>
+                )}
+              </Tooltip>
+            </a>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };

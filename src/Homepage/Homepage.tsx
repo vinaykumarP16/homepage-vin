@@ -145,6 +145,12 @@ export const Homepage = () => {
       color: "black",
       iconKey:<FaJenkins/>,
     },
+    {
+      name: "netlify",
+      link: "https://app.netlify.com/teams/vinaykumarp16/overview?_ga=2.104046915.298324030.1679299493-1068114119.1678622713",
+      color: "#8efbf7",
+      iconKey:<FaJenkins/>,
+    },
     
     {
       name: "Scratch-pad",

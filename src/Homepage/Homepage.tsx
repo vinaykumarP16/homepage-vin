@@ -12,7 +12,7 @@ import { Button, IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { BsFiletypeSql, BsGraphUpArrow, BsStackOverflow, BsFileEarmarkSpreadsheetFill } from 'react-icons/bs';
-import { FaJenkins, FaJava } from 'react-icons/fa';
+import { FaJenkins, FaJava,FaReact } from 'react-icons/fa';
 import { MdOutlineDataArray } from 'react-icons/md';
 import { BiNotepad } from 'react-icons/bi';
 import { ImSpotify } from 'react-icons/im';
@@ -87,7 +87,7 @@ export const Homepage = () => {
     },
     {
       name: "gmeet",
-      link: "https://meet.google.com/?hs=197&pli=1&authuser=0",
+      link: "https://meet.google.com/qbe-zbof-nbe",
       color: "green",
       iconKey: <SiGooglemeet />,
     },
@@ -214,6 +214,12 @@ export const Homepage = () => {
       link: "https://scrimba.com/learn/typescript/type-assignment-and-type-inference-cbKnaDCE",
       color: "blue",
       iconKey: <SiTypescript />,
+    },
+    {
+      name: "React",
+      link: "https://react-tutorial.app/app.html",
+      color: "blue",
+      iconKey: <FaReact />,
     },
     {
       name: "Python",

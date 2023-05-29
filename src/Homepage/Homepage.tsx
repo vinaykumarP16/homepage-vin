@@ -11,12 +11,12 @@ import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import { Button, IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { BsFiletypeSql,BsGraphUpArrow,BsStackOverflow,BsFileEarmarkSpreadsheetFill } from 'react-icons/bs';
-import { FaJenkins,FaJava } from 'react-icons/fa';
+import { BsFiletypeSql, BsGraphUpArrow, BsStackOverflow, BsFileEarmarkSpreadsheetFill } from 'react-icons/bs';
+import { FaJenkins, FaJava,FaReact } from 'react-icons/fa';
 import { MdOutlineDataArray } from 'react-icons/md';
 import { BiNotepad } from 'react-icons/bi';
 import { ImSpotify } from 'react-icons/im';
-import {SiGooglemeet,SiGmail,SiLeetcode,SiTypescript,SiPython,SiOpenai} from 'react-icons/si';
+import { SiGooglemeet, SiGmail, SiLeetcode, SiTypescript, SiPython, SiOpenai, SiNetlify } from 'react-icons/si';
 
 
 
@@ -87,7 +87,7 @@ export const Homepage = () => {
     },
     {
       name: "gmeet",
-      link: "https://meet.google.com/?hs=197&pli=1&authuser=0",
+      link: "https://meet.google.com/qbe-zbof-nbe",
       color: "green",
       iconKey: <SiGooglemeet />,
     },
@@ -137,20 +137,26 @@ export const Homepage = () => {
       name: "StackOverflow",
       link: "https://stackoverflow.com/",
       color: "blue",
-      iconKey:<BsStackOverflow/>,
+      iconKey: <BsStackOverflow />,
     },
     {
       name: "jenkins",
       link: "https://jenkins.assuredev.in/job/Task%20Management/",
       color: "black",
-      iconKey:<FaJenkins/>,
+      iconKey: <FaJenkins />,
     },
-    
+    {
+      name: "netlify",
+      link: "https://app.netlify.com/teams/vinaykumarp16/overview?_ga=2.104046915.298324030.1679299493-1068114119.1678622713",
+      color: "#8efbf7",
+      iconKey: <SiNetlify />,
+    },
+
     {
       name: "Scratch-pad",
       link: "data:text/html,<html contenteditable>",
       color: "blue",
-      iconKey:<BiNotepad/>,
+      iconKey: <BiNotepad />,
     },
     {
       name: "jarvis server",
@@ -210,6 +216,12 @@ export const Homepage = () => {
       iconKey: <SiTypescript />,
     },
     {
+      name: "React",
+      link: "https://react-tutorial.app/app.html",
+      color: "blue",
+      iconKey: <FaReact />,
+    },
+    {
       name: "Python",
       link: "https://scrimba.com/learn/python/course-introduction-c9Bv3wc8",
       color: "blue",
@@ -259,7 +271,7 @@ export const Homepage = () => {
           </div>
         ))}
 
-        
+
         {myCourses?.map((item) => (
           <div key={item.name} style={{ margin: "20px" }}>
             <a

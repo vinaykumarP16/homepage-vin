@@ -1,15 +1,16 @@
 import React from 'react';
-// import AddOns from './AddOns/AddOns';
 import './App.css';
 import { Homepage } from './Homepage/Homepage';
-// import ImageViewer from './ImageView/ImageViewer';
+import { Deadlines } from './Deadlines/Deadlines';
 
 function App() {
   return (
     <div className="App">
       <Homepage/>
-      {/* <AddOns/> 
-      <ImageViewer/> */}
+      <h1 style={{color:'red'}}>You Can</h1>
+      <h4>Achievements / Goals to be done by September</h4>
+      <Deadlines/>
+      <h1 style={{color:'red'}}>Believe</h1>
     </div>
   );
 }

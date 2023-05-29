@@ -35,6 +35,7 @@ export const Deadlines = () => {
       message: "perfect in programming",
     },
   ];
+  
   const date = dayjs().format("MM/DD/YYYY");
   console.log(date);
 
@@ -54,6 +55,7 @@ export const Deadlines = () => {
 
   return (
     <div className="main-card-layout">
+      
       {myGoalsArray.map((item) => {
         return (
           <div className="main-container">

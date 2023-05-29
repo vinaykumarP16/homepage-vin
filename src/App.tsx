@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Homepage } from "./Homepage/Homepage";
 import { Deadlines } from "./Deadlines/Deadlines";
-import { Button, IconButton } from "@mui/material";
+import {  IconButton } from "@mui/material";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
 function App() {

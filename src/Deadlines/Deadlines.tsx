@@ -39,7 +39,7 @@ export const Deadlines = () => {
   const date = dayjs().format("MM/DD/YYYY");
   console.log(date);
 
-  var date_diff_indays = function (
+  const date_diff_indays = function (
     date1: string | number | Date,
     date2: string | number | Date
   ) {

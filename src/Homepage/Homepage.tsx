@@ -11,7 +11,7 @@ import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import { Button, IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { BsFiletypeSql, BsGraphUpArrow, BsStackOverflow, BsFileEarmarkSpreadsheetFill } from 'react-icons/bs';
+import { BsFiletypeSql, BsGraphUpArrow, BsStackOverflow, BsFileEarmarkSpreadsheetFill, BsTelegram } from 'react-icons/bs';
 import { FaJenkins, FaJava,FaReact } from 'react-icons/fa';
 import { MdOutlineDataArray } from 'react-icons/md';
 import { BiNotepad } from 'react-icons/bi';
@@ -39,6 +39,12 @@ export const Homepage = () => {
       link: "https://web.whatsapp.com/",
       color: "green",
       iconKey: <WhatsAppIcon />,
+    },
+    {
+      name: "Telegram",
+      link: "https://web.whatsapp.com/",
+      color: "blue",
+      iconKey: <BsTelegram />,
     },
     {
       name: "spotify",
@@ -224,6 +230,12 @@ export const Homepage = () => {
     {
       name: "Python",
       link: "https://scrimba.com/learn/python/course-introduction-c9Bv3wc8",
+      color: "blue",
+      iconKey: <SiPython />,
+    },
+    {
+      name: "Python 2",
+      link: "https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26828308?start=120#overview",
       color: "blue",
       iconKey: <SiPython />,
     },

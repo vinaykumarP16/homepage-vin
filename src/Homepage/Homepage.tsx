@@ -42,7 +42,7 @@ export const Homepage = () => {
     },
     {
       name: "Telegram",
-      link: "https://web.whatsapp.com/",
+      link: "https://web.telegram.org/a/",
       color: "blue",
       iconKey: <BsTelegram />,
     },
@@ -228,13 +228,13 @@ export const Homepage = () => {
       iconKey: <FaReact />,
     },
     {
-      name: "Python",
+      name: "Python scrimba",
       link: "https://scrimba.com/learn/python/course-introduction-c9Bv3wc8",
       color: "blue",
       iconKey: <SiPython />,
     },
     {
-      name: "Python 2",
+      name: "Python udemy",
       link: "https://www.udemy.com/course/data-structures-algorithms-python/learn/lecture/26828308?start=120#overview",
       color: "blue",
       iconKey: <SiPython />,

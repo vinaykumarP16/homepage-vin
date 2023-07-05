@@ -34,6 +34,12 @@ export const Deadlines = () => {
       deadline: "12/31/2023", //  mm/dd/yyyy
       message: "perfect in programming",
     },
+{
+no:6,
+name: "dad's retirement",
+deadline: "03/03/2024",
+message: " well position before dad retires",
+},
   ];
   
   const date = dayjs().format("MM/DD/YYYY");

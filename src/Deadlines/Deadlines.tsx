@@ -34,14 +34,14 @@ export const Deadlines = () => {
       deadline: "12/31/2023", //  mm/dd/yyyy
       message: "perfect in programming",
     },
-{
-no:6,
-name: "dad's retirement",
-deadline: "03/03/2024",
-message: " well position before dad retires",
-},
+    {
+      no: 6,
+      name: "dad's retirement",
+      deadline: "03/03/2025",
+      message: " well position before dad retires",
+    },
   ];
-  
+
   const date = dayjs().format("MM/DD/YYYY");
   console.log(date);
 
@@ -61,12 +61,11 @@ message: " well position before dad retires",
 
   return (
     <div className="main-card-layout">
-      
       {myGoalsArray.map((item) => {
         return (
           <div className="main-container">
             <p>{item.name}</p>
-            <h1>{date_diff_indays(date, item.deadline)} days Left</h1>
+            <h1>{date_diff_indays(date, item.deadline)} </h1>days Left
           </div>
         );
       })}

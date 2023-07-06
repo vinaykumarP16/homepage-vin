@@ -4,6 +4,7 @@ import { Homepage } from "./Homepage/Homepage";
 import { Deadlines } from "./Deadlines/Deadlines";
 import {  IconButton } from "@mui/material";
 import VisibilityIcon from "@mui/icons-material/Visibility";
+import MilestonesTracker from "./MilestonesTracker/MilestonesTracker";
 
 function App() {
   const [showDeadlines, setShowDeadlines] = React.useState<boolean>(false);
@@ -18,6 +19,7 @@ function App() {
       {showDeadlines && (
         <div>
           <h4>Achievements / Goals to be done by September</h4> <Deadlines />
+          <MilestonesTracker/>
         </div>
       )}
       <h1 style={{ color: "red" }}>Believe</h1>

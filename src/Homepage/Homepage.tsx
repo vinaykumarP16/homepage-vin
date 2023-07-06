@@ -11,7 +11,7 @@ import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import { Button, IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { BsFiletypeSql, BsGraphUpArrow, BsStackOverflow, BsFileEarmarkSpreadsheetFill, BsTelegram } from 'react-icons/bs';
+import { BsFiletypeSql,BsFiletypeDoc, BsGraphUpArrow, BsStackOverflow, BsFileEarmarkSpreadsheetFill, BsTelegram } from 'react-icons/bs';
 import { FaJenkins, FaJava,FaReact } from 'react-icons/fa';
 import { MdOutlineDataArray } from 'react-icons/md';
 import { BiNotepad } from 'react-icons/bi';
@@ -22,12 +22,6 @@ import { SiGooglemeet, SiGmail, SiLeetcode, SiTypescript, SiPython, SiOpenai, Si
 
 export const Homepage = () => {
   const entertainment = [
-    {
-      name: "youtube",
-      link: "https://www.youtube.com/",
-      color: "red",
-      iconKey: <YouTubeIcon />,
-    },
     {
       name: "twitter",
       link: "https://twitter.com/home",
@@ -114,6 +108,12 @@ export const Homepage = () => {
       link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
       color: "red",
       iconKey: <SiGmail />,
+    },
+     {
+      name: "Docs",
+      link: "https://docs.google.com/document/u/0/",
+      color: "ligthblue",
+      iconKey: <BsFiletypeDoc />,
     },
     {
       name: "leetcode",

@@ -15,7 +15,7 @@ import { BsFiletypeSql,BsFiletypeDoc, BsGraphUpArrow, BsStackOverflow, BsFileEar
 import { FaJenkins, FaJava,FaReact } from 'react-icons/fa';
 import { MdOutlineDataArray } from 'react-icons/md';
 import { BiNotepad } from 'react-icons/bi';
-import { ImSpotify } from 'react-icons/im';
+import { ImSpotify,ImGoogleDrive } from 'react-icons/im';
 import { SiGooglemeet, SiGmail, SiLeetcode, SiTypescript, SiPython, SiOpenai, SiNetlify } from 'react-icons/si';
 
 
@@ -84,6 +84,12 @@ export const Homepage = () => {
       link: "https://chat.openai.com/chat",
       color: "dark-green",
       iconKey: <SiOpenai />,
+    },
+    {
+      name: "Drive",
+      link: "https://drive.google.com/drive/my-drive",
+      color: "Green",
+      iconKey: <ImGoogleDrive />,
     },
     {
       name: "gmeet",

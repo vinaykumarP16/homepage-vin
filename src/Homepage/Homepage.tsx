@@ -176,6 +176,11 @@ export const Homepage = () => {
       color: "Blue",
     },
     {
+      name: "jarvis server Vite",
+      link: "http://127.0.0.1:3000/app",
+      color: "Blue",
+    },
+    {
       name: "assureweb-server",
       link: "http://localhost:3000/",
       color: "Blue",

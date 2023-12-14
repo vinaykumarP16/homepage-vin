@@ -7,25 +7,25 @@ export const Deadlines = () => {
     {
       no: 1,
       name: "Get Into Best Shape",
-      deadline: "09/16/2023", //  mm/dd/yyyy
+      deadline: "03/16/2023", //  mm/dd/yyyy
       message: "Eat properly",
     },
     {
       no: 2,
       name: "Python Perfection",
-      deadline: "08/18/2023", //  mm/dd/yyyy
+      deadline: "03/18/2023", //  mm/dd/yyyy
       message: "be in intermediate level in Python",
     },
     {
       no: 3,
       name: "SQL Perfection",
-      deadline: "08/18/2023", //  mm/dd/yyyy
+      deadline: "03/18/2023", //  mm/dd/yyyy
       message: "Sql queries perfection",
     },
     {
       no: 4,
       name: "Data Structure and Algorithms",
-      deadline: "09/16/2023", //  mm/dd/yyyy
+      deadline: "03/16/2023", //  mm/dd/yyyy
       message: "perfect in programming",
     },
     {
@@ -40,6 +40,12 @@ export const Deadlines = () => {
       deadline: "03/03/2025",
       message: " well position before dad retires",
     },
+    {
+      no: 7,
+      name: "change life",
+      deadline: "06/25/2025",
+      message: "Change required",
+    }
   ];
 
   const date = dayjs().format("MM/DD/YYYY");

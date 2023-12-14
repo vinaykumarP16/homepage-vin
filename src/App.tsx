@@ -10,6 +10,7 @@ function App() {
   const [showDeadlines, setShowDeadlines] = React.useState<boolean>(false);
   return (
     <div className="App">
+      <h1 style={{ color: "red" }}> You got this DUDE 😎 | Keep Rocking !</h1>
       <Homepage />
       <h1 style={{ color: "red" }}>You Can | Never Stop Dreaming </h1>
 
@@ -22,6 +23,7 @@ function App() {
           <MilestonesTracker />
         </div>
       )}
+      <br/>
       <h1 style={{ color: "red" }}> You will get what you Dreamed in LIFE & More than That!</h1>
       <br/>
       <h1 style={{ color: "red" }}> Think Big, Do Big | Believe | Think +Ve </h1>

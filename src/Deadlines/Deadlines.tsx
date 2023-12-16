@@ -7,25 +7,25 @@ export const Deadlines = () => {
     {
       no: 1,
       name: "Get Into Best Shape",
-      deadline: "03/16/2023", //  mm/dd/yyyy
+      deadline: "03/16/2024", //  mm/dd/yyyy
       message: "Eat properly",
     },
     {
       no: 2,
       name: "Python Perfection",
-      deadline: "03/18/2023", //  mm/dd/yyyy
+      deadline: "03/18/2024", //  mm/dd/yyyy
       message: "be in intermediate level in Python",
     },
     {
       no: 3,
       name: "SQL Perfection",
-      deadline: "03/18/2023", //  mm/dd/yyyy
+      deadline: "03/18/2024", //  mm/dd/yyyy
       message: "Sql queries perfection",
     },
     {
       no: 4,
       name: "Data Structure and Algorithms",
-      deadline: "03/16/2023", //  mm/dd/yyyy
+      deadline: "03/16/2024", //  mm/dd/yyyy
       message: "perfect in programming",
     },
     {

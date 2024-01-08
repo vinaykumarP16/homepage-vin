@@ -31,7 +31,7 @@ export const Deadlines = () => {
     {
       no: 5,
       name: "Days in the Year",
-      deadline: "12/31/2023", //  mm/dd/yyyy
+      deadline: "12/31/2024", //  mm/dd/yyyy
       message: "perfect in programming",
     },
     {
@@ -45,7 +45,13 @@ export const Deadlines = () => {
       name: "change life",
       deadline: "06/25/2025",
       message: "Change required",
-    }
+    },
+    {
+      no: 8,
+      name: "Time start",
+      deadline: "04/01/2024", //  mm/dd/yyyy
+      message: "take challenges",
+    },
   ];
 
   const date = dayjs().format("MM/DD/YYYY");

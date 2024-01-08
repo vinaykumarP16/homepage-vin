@@ -26,11 +26,11 @@ function App() {
       <br/>
       <h1 style={{ color: "red" }}> You will get what you Dreamed in LIFE & More than That!</h1>
       <br/>
-      <h1 style={{ color: "red" }}> Think Big, Do Big | Believe | Think +Ve </h1>
+      <h1 style={{ color: "red" }}>Think Big, Do Big | Believe | Think +Ve </h1>
       <br/>
       <h1 style={{ color: "red" }}>Dont give up on your Goals | Manifest | Anything is Possible when you TRY</h1>
       <br/>
-      <h1 style={{ color: "red" }}>Belive | Best Days are coming towards YOU | Fortune favors the BOLD</h1>
+      <h1 style={{ color: "red" }}>Believe | Best Days are coming towards YOU | Fortune favors the BOLD</h1>
     </div>
   );
 }

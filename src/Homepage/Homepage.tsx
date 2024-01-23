@@ -221,6 +221,12 @@ export const Homepage = () => {
       iconKey: <BsFiletypeSql />,
     },
     {
+      name: "SQL",
+      link: "https://www.udemy.com/course/complete-sql-databases-bootcamp-zero-to-mastery/learn/lecture/19019236#notes",
+      color: "blue",
+      iconKey: <BsFiletypeSql />,
+    },
+    {
       name: "DSA course",
       link: "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
       color: "blue",

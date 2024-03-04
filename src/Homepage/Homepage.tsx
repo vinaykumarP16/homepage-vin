@@ -205,6 +205,11 @@ export const Homepage = () => {
       link: "https://github.com/Transform-Automations/assure-web",
       color: "blue",
     },
+    {
+      name: "diff checker",
+      link: "https://www.diffchecker.com",
+      color: "Green",
+    },
   ];
 
   const myCourses = [

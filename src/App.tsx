@@ -31,7 +31,11 @@ function App() {
       <h1 style={{ color: "red" }}>Dont give up on your Goals | Manifest | Anything is Possible when you TRY</h1>
       <br/>
       <h1 style={{ color: "red" }}>Believe | Best Days are coming towards YOU | Fortune favors the BOLD</h1>
-    </div>
+      <br />
+      <h1 style={{ color: "red" }}>💓Love the life❣️, everyone will 💞 love You 💖</h1>
+      <br />
+      <h1 style={{ color: "red" }}>You got what you Have Dreamed, Dream Big !</h1>
+      </div>
   );
 }
 

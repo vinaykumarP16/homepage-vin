@@ -16,11 +16,33 @@ import { FaJenkins, FaJava,FaReact } from 'react-icons/fa';
 import { MdOutlineDataArray } from 'react-icons/md';
 import { BiNotepad } from 'react-icons/bi';
 import { ImSpotify,ImGoogleDrive } from 'react-icons/im';
-import { SiGooglemeet, SiGmail, SiLeetcode, SiTypescript, SiPython, SiOpenai, SiNetlify } from 'react-icons/si';
-
+import { SiGooglemeet, SiGmail, SiLeetcode, SiTypescript, SiPython, SiOpenai, SiNetlify,SiMaterialdesignicons, SiPreact  } from 'react-icons/si';
+import { TbSql } from "react-icons/tb";
+import Quote from "../Quote/Quote";
+import Advice from "../Advice/Advice";
 
 
 export const Homepage = () => {
+  const latestCourses=[
+    {
+      name: "React Latest",
+      link: "https://twitter.com/home",
+      color: "blue",
+      iconKey: <SiPreact  />,
+    },
+    {
+      name: "SQL",
+      link: "https://twitter.com/home",
+      color: "blue",
+      iconKey: <TbSql />,
+    },
+    {
+      name: "System Design",
+      link: "https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348?start=0#overview",
+      color: "blue",
+      iconKey: <SiMaterialdesignicons />,
+    },
+  ]
   const entertainment = [
     {
       name: "twitter",
@@ -280,6 +302,32 @@ export const Homepage = () => {
           flexWrap: "wrap",
         }}
       >
+        <Advice/>
+        <Quote/>
+        {latestCourses?.map((item) => (
+          <div key={item.name} style={{ margin: "20px" }}>
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <Tooltip
+                title={item.name}
+                TransitionComponent={Zoom}
+                placement="top"
+              >
+                {item.iconKey ? (
+                  <IconButton style={{ color: item.color }} size="medium">
+                    {item.iconKey}
+                  </IconButton>
+                ) : (
+                  <Button> {item.name}</Button>
+                )}
+              </Tooltip>
+            </a>
+          </div>
+        ))}
         {entertainment?.map((item) => (
           <div key={item.name} style={{ margin: "20px" }}>
             <a

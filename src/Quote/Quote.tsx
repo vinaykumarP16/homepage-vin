@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { IconButton } from '@mui/material';
 import { IoMdRefreshCircle } from 'react-icons/io';
-import "./quote.css";
 
 const Quote = () => {
     const [quotes, setQuotes] = useState([]);
@@ -28,7 +27,13 @@ const Quote = () => {
 
 
     return (
-        <div className='quote'>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexWrap: 'nowrap',
+        }}>
             <p>{currentQuote?.text} - {currentQuote?.author ? currentQuote.author : 'Unknown'}</p>
             <IconButton onClick={getNewQuote} style={{ color: 'green' }} size="medium">
                 <IoMdRefreshCircle />

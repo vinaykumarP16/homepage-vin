@@ -2,7 +2,6 @@ import { IconButton } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { IoMdRefreshCircle } from "react-icons/io";
-import "./styles.css";
 
 const Advice = () => {
     const [advice, setAdvice] = useState('');
@@ -21,7 +20,13 @@ const Advice = () => {
 
 
     return (
-        <div className="advice">
+        <div style={{
+            display: 'flex',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexWrap: 'nowrap',
+        }}>
             <p>{advice}</p>
             <IconButton onClick={fetchAdvice} style={{ color: 'green' }} size="medium">
                 <IoMdRefreshCircle />

@@ -25,6 +25,12 @@ const Quote = () => {
         setCurrentQuote(quotes[Math.floor(Math.random() * quotes.length)]);
     };
 
+    const cleanAuthor = (author:string) => {
+        if (!author) return 'Unknown';
+        return author.replace(', type.fit', '');
+      };
+    
+
 
     return (
         <div style={{
@@ -34,7 +40,7 @@ const Quote = () => {
             justifyContent: 'center',
             flexWrap: 'nowrap',
         }}>
-            <p>{currentQuote?.text} - {currentQuote?.author ? currentQuote.author : 'Unknown'}</p>
+            <p>{currentQuote?.text} - {cleanAuthor(currentQuote.author)}</p>
             <IconButton onClick={getNewQuote} style={{ color: 'green' }} size="medium">
                 <IoMdRefreshCircle />
             </IconButton>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { IconButton } from '@mui/material';
 import { IoMdRefreshCircle } from 'react-icons/io';
-import "./quote.scss";
+import "./quote.css";
 
 const Quote = () => {
     const [quotes, setQuotes] = useState([]);

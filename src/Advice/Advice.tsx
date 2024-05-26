@@ -19,12 +19,12 @@ const Advice = () => {
     }, []);
 
     return (
-        <>
+        <div>
             <p>{advice}</p>
             <IconButton onClick={fetchAdvice} style={{ color: 'green' }} size="medium">
                 <IoMdRefreshCircle />
             </IconButton>
-        </>
+        </div>
     )
 }
 

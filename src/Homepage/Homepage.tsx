@@ -302,10 +302,7 @@ export const Homepage = () => {
           flexWrap: "wrap",
         }}
       >
-        <Advice/>
-        <br/>
-        <Quote/>
-        <br/>
+        
         {latestCourses?.map((item) => (
           <div key={item.name} style={{ margin: "20px" }}>
             <a
@@ -405,6 +402,10 @@ export const Homepage = () => {
           </div>
         ))}
       </div>
+      <div>
+      <Advice/>
+        <Quote/>
+        </div>
     </>
   );
 };

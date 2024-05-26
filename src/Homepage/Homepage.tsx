@@ -303,7 +303,9 @@ export const Homepage = () => {
         }}
       >
         <Advice/>
+        <br/>
         <Quote/>
+        <br/>
         {latestCourses?.map((item) => (
           <div key={item.name} style={{ margin: "20px" }}>
             <a

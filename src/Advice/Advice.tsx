@@ -2,7 +2,7 @@ import { IconButton } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { IoMdRefreshCircle } from "react-icons/io";
-import './styles.scss';
+import "./styles.css";
 
 const Advice = () => {
     const [advice, setAdvice] = useState('');

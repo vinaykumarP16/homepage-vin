@@ -26,13 +26,13 @@ export const Homepage = () => {
   const latestCourses=[
     {
       name: "React Latest",
-      link: "https://twitter.com/home",
+      link: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/38345170?start=375#overview",
       color: "blue",
       iconKey: <SiPreact  />,
     },
     {
       name: "SQL",
-      link: "https://twitter.com/home",
+      link: "https://www.udemy.com/course/complete-sql-databases-bootcamp-zero-to-mastery/learn/lecture/19367402?start=1#overview",
       color: "blue",
       iconKey: <TbSql />,
     },
@@ -43,6 +43,7 @@ export const Homepage = () => {
       iconKey: <SiMaterialdesignicons />,
     },
   ]
+  
   const entertainment = [
     {
       name: "twitter",

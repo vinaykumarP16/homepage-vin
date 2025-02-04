@@ -35,6 +35,8 @@ function App() {
       <h1 style={{ color: "red" }}>💓Love the life❣️, everyone will 💞 love You 💖</h1>
       <br />
       <h1 style={{ color: "red" }}>You got what you Have Dreamed, Dream Big !</h1>
+      <br/>
+      <h1 style={{ color: "red" }}>I dont chase, I attract😎</h1>
       </div>
   );
 }

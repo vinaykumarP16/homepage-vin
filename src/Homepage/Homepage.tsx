@@ -410,7 +410,7 @@ export const Homepage = () => {
       </div>
       <div>
       <Advice/>
-        <Quote/>
+        {/* <Quote/> */}
         </div>
     </>
   );

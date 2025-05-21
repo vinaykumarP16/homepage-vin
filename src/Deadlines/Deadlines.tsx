@@ -7,49 +7,43 @@ export const Deadlines = () => {
     {
       no: 1,
       name: "Get Into Best Shape",
-      deadline: "03/16/2024", //  mm/dd/yyyy
+      deadline: "07/10/2025", //  mm/dd/yyyy
       message: "Eat properly",
     },
     {
       no: 2,
       name: "Python Perfection",
-      deadline: "03/18/2024", //  mm/dd/yyyy
+      deadline: "06/10/2025", //  mm/dd/yyyy
       message: "be in intermediate level in Python",
     },
     {
       no: 3,
       name: "SQL Perfection",
-      deadline: "03/18/2024", //  mm/dd/yyyy
+      deadline: "06/15/2025", //  mm/dd/yyyy
       message: "Sql queries perfection",
     },
     {
       no: 4,
       name: "Data Structure and Algorithms",
-      deadline: "03/16/2024", //  mm/dd/yyyy
+      deadline: "06/25/2025", //  mm/dd/yyyy
       message: "perfect in programming",
     },
     {
       no: 5,
       name: "Days in the Year",
-      deadline: "12/31/2024", //  mm/dd/yyyy
+      deadline: "12/31/2025", //  mm/dd/yyyy
       message: "perfect in programming",
-    },
-    {
-      no: 6,
-      name: "dad's retirement",
-      deadline: "03/03/2025",
-      message: " well position before dad retires",
     },
     {
       no: 7,
       name: "change life",
-      deadline: "06/25/2025",
+      deadline: "07/30/2025",
       message: "Change required",
     },
     {
       no: 8,
       name: "Time start",
-      deadline: "04/01/2024", //  mm/dd/yyyy
+      deadline: "05/21/2025", //  mm/dd/yyyy
       message: "take challenges",
     },
   ];

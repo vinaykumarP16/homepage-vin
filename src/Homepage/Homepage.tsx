@@ -18,7 +18,6 @@ import { BiNotepad } from 'react-icons/bi';
 import { ImSpotify,ImGoogleDrive } from 'react-icons/im';
 import { SiGooglemeet, SiGmail, SiLeetcode, SiTypescript, SiPython, SiOpenai, SiNetlify,SiMaterialdesignicons, SiPreact  } from 'react-icons/si';
 import { TbSql } from "react-icons/tb";
-import Quote from "../Quote/Quote";
 import Advice from "../Advice/Advice";
 
 
